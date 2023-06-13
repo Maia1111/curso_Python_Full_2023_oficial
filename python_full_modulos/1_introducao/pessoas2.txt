@@ -1,0 +1,3 @@
+Nome: João idade: 20 
+Nome: Maria idade: 30 
+Nome: José idade: 40 
