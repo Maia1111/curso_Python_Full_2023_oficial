@@ -70,3 +70,38 @@ Pessoas.andar(100)
 
 # Também consigo acessar um método de classe pela instancia
 p1.andar(100)
+
+
+# Método static é um metodo que não tem o estado da classe
+# Não precisa de uma instancia para ser chamado
+# Não precisa de um objeto para ser chamado
+# Não precisa de um atributo de classe para ser chamado
+
+# Exemplo
+
+
+class Calculadora():
+
+    @staticmethod
+    def soma(a, b):
+        return a + b
+
+
+    @staticmethod
+    def subtracao(a, b):
+        return a - b
+
+
+    @staticmethod
+    def multiplicacao(a, b):
+        return a * b
+
+
+    @staticmethod
+    def divisao(a, b):
+        return a / b
+    
+
+# O método é acessado atravéz da classe mais não tem acesso a nada da classe
+print(Calculadora.soma(10, 20))
+

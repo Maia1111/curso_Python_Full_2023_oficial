@@ -42,5 +42,5 @@ gato1.andar()
 # Chamando metodo que existe somente na classse pai 
 gato1.miar()  
 
-
+# Tendo informações da classe Gato
 print(help(Gato))
